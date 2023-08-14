@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Потрясающий заголовок страницы</title>
+</head>
+<body bgcolor="#00CCFF" text="#fff">
+    <font color="black"><h1>Главная страница</h1><font>
+        <p>Посты</p>
+    <a href="{{ url_for('new_post') }}"><button>Создать новый пост</button></a>
+    <ul>
+        {% for post in posts %}
+        <h3>
+        <li><a href="{{ url_for('get_post', post_id=post['id']) }}">{{ post['title'] }}</a></li>
+        <h3>
+            {% endfor %}
+    </ul>
+
+</p><font>
+
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>смотрим стримчики :) </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </iframe>
+
+    <p>ㅤ</p>
+    <script src="//code.jivo.ru/widget/qbBYji47be" async></script>
+    <p>ㅤ</p>
+
+
+    <p>Тестовые функции</p>
+    <p>
+        <a href="https://img1.akspic.ru/attachments/crops/8/8/6/4/7/174688/174688-bakenbardy-kot-polosatyj_kot-nauka-koshachih-1920x1080.jpg">
+            Что-то скачать
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.youtube.com/watch?v=40oqqvukqJ8">
+            Посмотреть видео
+        </a>
+    </p>
+
+    <p>
+        <a href="https://googlesnakegame.com/">
+            Играть
+        </a>
+    </p>
+
+    <p>Полезные ссылки</p>
+
+    <p><a href="https://t.me/MrSysanin">Мой telegram</a>.</p>
+
+    <a href="https://t.me/+Cg0_3ePNWEE1MTRi">Булочки FANS'a</a>.
+
+
+    <p>Счетчик посетителей</p>
+<p>
+    <!--LiveInternet counter--><a href="https://www.liveinternet.ru/click"
+                                  target="_blank">
+        <img id="licnt74B7" width="88" height="15" style="border:0"
+             title="LiveInternet: показано число посетителей за сегодня"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+             alt="" />
+    </a>
+    <script>
+(function(d,s){d.getElementById("licnt74B7").src=
+"https://counter.yadro.ru/hit?t23.8;r"+escape(d.referrer)+
+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+(document,screen)</script><!--/LiveInternet-->
+    </p>
+
+
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+    <p>ㅤ</p>
+
+</body>
+
+</html>
+
+
+
+
